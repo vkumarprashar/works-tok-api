@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using WebApplication2.Models;
 
-namespace WebApplication2.Models
+namespace WebApplication2
 {
     public partial class worksTokV2Context : DbContext
     {

@@ -4,16 +4,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.Design;
 using System.Linq;
-using WebApplication2.Models;
 
 namespace WebApplication2.Controllers
 {
     [Route("api/[action]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class WorksTokController : ControllerBase
     {
         private readonly worksTokV2Context db ;
-        public ValuesController()
+        public WorksTokController()
         {
             db = new worksTokV2Context();
         }
